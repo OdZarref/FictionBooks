@@ -110,7 +110,7 @@ nav svg {
     }
 
     .main-container {
-        background-image: url(/images/noir-lowres.jpg);
+        background-image: url(./images/noir-lowres.jpg);
         width: 100%;
         height: 400px;
         display: flex;
