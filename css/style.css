@@ -108,6 +108,12 @@ nav svg {
     font-size: 15px;
 }
 
+.fiction-text {
+    margin-bottom: 0;
+    font-family: "Fascinate Inline", system-ui;
+    font-size: 40px;
+}
+
 .livros {
     border-bottom: solid;
     display: flex;
