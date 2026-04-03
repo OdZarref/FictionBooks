@@ -130,7 +130,7 @@ nav svg {
     width: 370px;
 }
 
-.uriel div, .nigel div{
+.image-description {
     position: relative;
     display: flex;
     height: 600px;
@@ -145,8 +145,14 @@ nav svg {
     height: 100%;
 }
 
+.uriel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-.uriel p, .nigel p {
+
+.uriel-desc, .nigel-desc {
     position: absolute;
     top: 0;
     left: 0;
@@ -166,21 +172,42 @@ nav svg {
     font-size: 15px;
 }
 
-.uriel p:hover, .nigel p:hover {
+.uriel-desc:hover, .nigel-desc:hover {
     opacity: 1;
 }
 
-.uriel p:hover .uriel img, .nigel p:hover .nigel img{
-    filter: blur(3px);
-    transform: scale(1.05);
-}
 
-.uriel p, .nigel p {
+.uriel-desc, .nigel-desc{
     padding: 10px;
 }
 
 .uriel div {
     align-items: center;
+}
+
+.nigel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rating {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.rating img {
+    height: 20px;
+    width: 20px;
+    margin: 10px 0px;
+}
+
+.rating > p {
+    height: 25px;
+    width: 25px;
+    font-size: 20px;
+    margin: 0px 10px 0px 0px;
 }
 
 .comprar {
@@ -206,6 +233,7 @@ nav svg {
     font-size: 22px;
     
 }
+
 
 .sub-title {
     font-size: 30px;
